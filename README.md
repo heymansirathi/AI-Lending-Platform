@@ -1,246 +1,348 @@
 # ✦ AI Lending Platform
 
-An AI-assisted commercial lending experience designed to improve underwriting workflows while keeping human judgment at the center.
+An AI-assisted lending experience built within an AWS ecosystem to improve underwriting workflows, strengthen risk assessment, and help lending teams make faster, more informed credit decisions while keeping human judgment at the center.
 
-![AI Lending Platform](assets/hero-dashboard.png)
+<p align="center">
+  <img src="assets/hero-dashboard.png" alt="AI Lending Platform Dashboard" width="100%">
+</p>
 
----
-
-## 🔒 Portfolio & Confidentiality Note
-
-The interfaces, dashboards, screenshots, and visualizations shown in this repository were recreated specifically for portfolio purposes.
-
-Because the original work involved confidential commercial lending workflows, the visuals use fictional data, representative business scenarios, and redesigned layouts.
-
-They are **not screenshots of production systems** and do not contain confidential company information, customer data, proprietary metrics, internal reports, or sensitive lending records.
-
-The visuals are intended to demonstrate the analytical thinking, reporting structure, product decisions, and user experience principles explored during the project.
+<p align="center">
+  <strong>AWS</strong> • <strong>Lending</strong> • <strong>Artificial Intelligence</strong> • <strong>Business Intelligence</strong> • <strong>Product Thinking</strong>
+</p>
 
 ---
 
-## 💭 Business Question
+## 👋 Overview
 
-How can AI help commercial lending teams review complex borrower information more efficiently without removing the judgment, accountability, and context required in credit decisions?
+Lending decisions require teams to evaluate large amounts of financial, operational, credit, and relationship information before making a recommendation.
+
+This project explores how an **AWS-based lending platform** can bring borrower information, financial analysis, document intelligence, risk signals, and credit memo preparation into one unified underwriting workspace.
+
+The platform is not designed to replace analysts, underwriters, or credit decision-makers. Its purpose is to reduce repetitive work, organize complex information, surface meaningful insights, and help lending teams make more consistent and confident decisions.
+
+The current workflow is particularly relevant to small-business and SBA lending, but the broader product concept can support a range of lending and underwriting scenarios.
 
 ---
 
-## 🧩 The Challenge
+## 🔒 Portfolio & Confidentiality
 
-Commercial underwriting often requires information from multiple sources, including:
+> [!IMPORTANT]
+> The interfaces, dashboards, workflows, screenshots, and visualizations shown in this repository were recreated exclusively for portfolio purposes.
 
-- Loan applications
+The original work involved confidential lending processes, proprietary business logic, internal systems, and sensitive financial information.
+
+To protect confidentiality:
+
+- All borrower and customer information is fictional.
+- All financial values and metrics have been recreated.
+- All interface layouts are redesigned portfolio concepts.
+- All business scenarios are representative rather than production examples.
+- No internal reports, customer records, proprietary calculations, or confidential company information are included.
+- The visuals are not screenshots of a live or production system.
+
+The recreated designs are intended to demonstrate the analytical thinking, reporting structure, workflow design, product decisions, and user-experience principles explored during the project.
+
+---
+
+## 🏦 Business Context
+
+Lending teams often need to review information from several sources before reaching a credit decision.
+
+Depending on the loan type, this may include:
+
+- Borrower and business information
 - Financial statements
+- Tax returns
 - Credit reports
-- Cash-flow analysis
-- Collateral information
-- Market and industry data
-- Internal documentation
-- Risk indicators
+- Existing debt obligations
+- Historical cash flow
+- Debt-service coverage
+- Collateral
+- Guarantor information
+- Ownership structure
+- Industry conditions
+- Loan purpose
+- Relationship history
+- Eligibility requirements
+- Documentation completeness
+- Policy exceptions
 
-The challenge is not simply collecting more data.
+Relationship managers, analysts, processors, underwriters, and approvers may work across multiple systems while manually consolidating information and preparing credit documentation.
 
-It is helping decision-makers identify what matters, understand risk, document their reasoning, and move confidently through the lending process.
+This project explores how analytics, AI, and AWS-based workflows could make that experience more structured, transparent, and efficient.
 
 ---
 
-## 🏦 The Concept
+## 🎯 The Challenge
 
-The platform brings relevant lending information into one structured decision-support experience.
+Traditional underwriting workflows may involve:
 
-It is designed to support:
+- Reviewing extensive financial documents
+- Collecting information across disconnected systems
+- Performing repetitive calculations
+- Comparing performance across reporting periods
+- Evaluating borrower repayment capacity
+- Identifying missing or inconsistent information
+- Reviewing collateral and guarantor support
+- Checking eligibility and policy requirements
+- Writing lengthy credit memorandums
+- Coordinating reviews across multiple teams
+- Maintaining consistency across decisions
+- Documenting the reasoning behind recommendations
 
-- Borrower review
-- Financial analysis
-- Credit assessment
-- Risk identification
-- Exception management
-- AI-assisted insights
-- Credit memo preparation
-- Human review
-- Approval workflows
+These activities require significant time and attention.
 
-The goal is to reduce unnecessary friction while preserving the judgment and accountability required in commercial lending.
+The opportunity is not simply to automate more work. It is to help lending professionals spend less time organizing information and more time applying judgment to the credit decision.
+
+---
+
+## 💡 Proposed Solution
+
+The proposed platform combines lending workflows, analytics, AI, and cloud-based infrastructure into one modern underwriting experience.
+
+Core capabilities may include:
+
+- ✅ Borrower overview
+- ✅ Loan request summary
+- ✅ Financial statement analysis
+- ✅ Cash-flow evaluation
+- ✅ Debt-service coverage analysis
+- ✅ Credit review
+- ✅ Collateral assessment
+- ✅ Guarantor review
+- ✅ Eligibility and policy checks
+- ✅ Document intelligence
+- ✅ Risk and exception identification
+- ✅ AI-assisted credit memo preparation
+- ✅ Recommendation support
+- ✅ Human review and approval workflows
+
+Every recommendation remains explainable, transparent, and reviewable by qualified lending professionals.
+
+---
+
+## ☁️ AWS-Based Platform Environment
+
+The broader experience is designed within an AWS ecosystem, bringing together lending workflows, reporting, analytics, document handling, and AI-assisted capabilities.
+
+The recreated portfolio visuals do not reproduce the underlying production architecture, but the product thinking reflects a cloud-based environment where multiple capabilities can work together securely.
+
+Representative platform components include:
+
+- AWS-hosted lending portal
+- Secure document storage
+- Centralized borrower and loan information
+- Workflow orchestration
+- Role-based user access
+- Financial and credit analysis
+- AI-assisted document review
+- Risk and exception monitoring
+- Credit memo support
+- Approval tracking
+- Audit history
+- Executive reporting
+
+The objective is to create one connected experience where lending professionals spend less time navigating systems and more time evaluating the decision.
 
 ---
 
 ## 👩‍💼 My Role
 
-My work focused on translating business and underwriting needs into a clear analytical and product experience.
+My work focused on translating lending and business requirements into a clear analytical and product experience.
 
 This included:
 
 - Understanding underwriting workflows
 - Identifying decision-relevant information
-- Organizing complex data into usable sections
-- Designing executive and underwriting views
-- Defining risk and exception signals
+- Organizing complex borrower data into usable sections
+- Defining dashboard and reporting requirements
+- Designing views for analysts, underwriters, and approvers
+- Identifying risk, exception, and documentation signals
 - Supporting credit memo workflows
 - Exploring responsible uses of AI
 - Keeping human review central to the process
+- Connecting business needs with product and reporting decisions
+- Contributing to an AWS-based lending environment
 
 ---
 
-## ⚙️ How the System Works
+## ⚙️ How the Platform Works
 
 ```text
 Loan Application
         ↓
-Financial & Credit Data
+Borrower & Business Information
         ↓
-Cash-Flow and Risk Analysis
+Financial and Credit Analysis
+        ↓
+Cash-Flow, Collateral & Risk Review
         ↓
 AI-Assisted Insights
         ↓
-Underwriter Review
+Underwriter Judgment
         ↓
 Credit Memo & Recommendation
         ↓
 Approval Workflow
 ```
 
----
-
-## 🧠 Key Product Principles
-
-### 1. Human judgment remains central
-
-AI supports the decision.
-
-It does not own the decision.
-
-Commercial lending requires context, accountability, and professional judgment that cannot be reduced to a score alone.
-
-### 2. Explainability over novelty
-
-AI-generated insights should help users understand:
-
-- What changed
-- Why it matters
-- Which risks need attention
-- What information may be missing
-- What should be reviewed next
-
-### 3. Clarity over information overload
-
-The platform should prioritize:
-
-- Important signals
-- Exceptions
-- Trends
-- Missing information
-- Recommended next steps
-
-The objective is not to display every available field at once.
-
-### 4. Responsible use of data
-
-Sensitive financial decisions require:
-
-- Appropriate governance
-- Transparent logic
-- Clear ownership
-- Human review
-- Careful use of customer and financial data
-
-### 5. Workflow before features
-
-The product should follow how lending teams actually work instead of forcing users into a technology-first process.
+The experience is designed to support the user throughout the full underwriting journey rather than treating each step as an isolated tool.
 
 ---
 
-## 📊 Information Included in the Experience
+## 🖥️ Product Experience
 
-The concept may include sections for:
+### Borrower Overview
 
-### Borrower Profile
+The borrower profile creates a central view of the business, loan request, ownership structure, relationship history, and key underwriting information.
 
-- Business overview
-- Ownership information
-- Industry classification
-- Loan request
-- Relationship summary
+A user should be able to quickly understand:
+
+- Who the borrower is
+- What the loan request is for
+- How long the relationship has existed
+- What information is available
+- Which areas require further review
+- Where risk or documentation gaps may exist
+
+---
 
 ### Financial Analysis
 
+The platform can consolidate financial performance into a structured analytical view.
+
+Potential areas include:
+
 - Revenue trends
 - Profitability
-- Debt obligations
+- EBITDA
+- Net income
 - Liquidity
 - Leverage
-- Cash-flow coverage
+- Existing debt
+- Working-capital trends
+- Historical cash flow
+- Projected cash flow
+- Debt-service coverage
+- Year-over-year changes
+
+The purpose is not to overwhelm the user with ratios. It is to help them understand the financial story behind the loan request.
+
+---
 
 ### Credit Review
 
+The credit review experience may include:
+
 - Credit history
 - Existing exposure
-- Repayment behavior
-- Collateral
-- Guarantor information
+- Payment behavior
+- Delinquencies
+- Outstanding obligations
+- Relationship performance
+- Guarantor support
+- Collateral coverage
+- Policy exceptions
+
+Important information should be visible without requiring the analyst to search across several systems.
+
+---
 
 ### Risk Assessment
 
+The platform can bring together multiple dimensions of risk, including:
+
 - Financial risk
+- Repayment risk
 - Industry risk
 - Concentration risk
 - Collateral risk
-- Documentation gaps
+- Guarantor risk
+- Documentation risk
+- Eligibility risk
 - Policy exceptions
+- Data-quality concerns
 
-### AI-Assisted Insights
+Risk indicators should provide context rather than act as unexplained scores.
 
-- Key changes
-- Potential concerns
+---
+
+## 🤖 AI-Assisted Features
+
+AI functions as an intelligent assistant throughout the underwriting process.
+
+Potential capabilities include:
+
+- Summarizing borrower information
+- Extracting information from uploaded documents
+- Comparing financial performance across periods
+- Highlighting unusual trends
+- Identifying missing documentation
+- Surfacing inconsistencies between documents
+- Summarizing key risks and mitigants
+- Drafting sections of a credit memorandum
+- Generating executive summaries
+- Suggesting areas requiring further review
+- Organizing supporting evidence
+- Preparing information for approval discussions
+
+AI supports the workflow, but it does not own the decision.
+
+---
+
+## 🧠 Product Principles
+
+### Human judgment remains central
+
+AI should support lending professionals, not replace their expertise, accountability, or decision-making authority.
+
+### Explainability over novelty
+
+An insight is only useful when the user can understand:
+
+- What was identified
+- Why it matters
+- Which information supports it
+- What should be reviewed next
+
+### Clarity over information overload
+
+The interface should prioritize:
+
+- Meaningful signals
+- Exceptions
+- Trends
 - Missing information
-- Trend summaries
-- Suggested areas for review
+- Supporting evidence
+- Recommended next steps
 
-### Credit Memo Support
+The goal is not to display every available field at once.
 
-- Borrower summary
-- Loan structure
-- Financial observations
-- Risks and mitigants
-- Recommendation
-- Approval rationale
+### Workflow before features
 
----
+The experience should follow how lending teams actually work rather than forcing users into a technology-first process.
 
-## ✨ Example User Experience
+### Evidence before recommendation
 
-A user reviewing an SBA loan may be able to:
+Recommendations should be connected to financial information, documents, risk indicators, and underwriting judgment.
 
-1. Open a borrower profile
-2. Review the loan request
-3. Compare financial performance across periods
-4. Identify missing documents
-5. Review risk indicators
-6. Read AI-generated summaries
-7. Add professional judgment and commentary
-8. Prepare a credit memo
-9. Submit the recommendation for approval
+### Responsible use of data
 
----
+Sensitive lending decisions require:
 
-## 🎯 Intended Outcome
-
-The concept demonstrates how analytics and AI can support a more structured, transparent, and efficient commercial underwriting experience.
-
-Potential benefits include:
-
-- Faster review of complex information
-- More consistent underwriting workflows
-- Better visibility into risk
-- Clearer documentation
-- Stronger communication across teams
-- More informed approval decisions
-- Reduced manual effort
-- Improved decision traceability
+- Appropriate governance
+- Data privacy
+- Transparent logic
+- Human oversight
+- Clear ownership
+- Auditability
+- Careful use of borrower information
 
 ---
 
 ## 🛡️ Responsible AI Considerations
 
-AI in lending must be used carefully.
+AI in lending must be used carefully because the recommendations may influence access to credit.
 
 Important considerations include:
 
@@ -248,68 +350,151 @@ Important considerations include:
 - Explainability
 - Data quality
 - Privacy
+- Security
 - Auditability
 - Human oversight
 - Model limitations
 - Appropriate escalation
+- Documentation of AI-generated content
 - Clear ownership of the final decision
 
-AI should help surface information and organize complexity, but final credit decisions should remain subject to qualified human review.
+AI should help organize complexity and surface relevant information, but final credit decisions should remain subject to qualified human review.
+
+---
+
+## ✨ Example User Journey
+
+A user reviewing a loan may be able to:
+
+1. Open the borrower profile.
+2. Review the loan request and business purpose.
+3. Confirm available documentation.
+4. Compare financial performance across periods.
+5. Review cash flow and debt-service coverage.
+6. Evaluate collateral and guarantor support.
+7. Identify risk indicators and policy exceptions.
+8. Read AI-generated summaries and observations.
+9. Add professional judgment and commentary.
+10. Prepare or refine the credit memorandum.
+11. Submit the recommendation for approval.
+12. Track review comments and final decisions.
+
+---
+
+## 📈 Intended Business Value
+
+An AI-assisted lending workflow has the potential to:
+
+- Reduce manual underwriting effort
+- Improve consistency across credit reviews
+- Accelerate credit memo preparation
+- Improve analyst productivity
+- Reduce turnaround time
+- Enhance borrower experience
+- Surface risks earlier
+- Improve documentation quality
+- Strengthen collaboration between lending teams
+- Support more traceable decisions
+- Reduce repetitive document review
+- Help decision-makers focus on material issues
+
+---
+
+## 🎨 Design Decisions
+
+The interface was designed to feel calm and structured even when the underlying information is complex.
+
+Key design decisions include:
+
+- Clear visual hierarchy
+- Decision-relevant KPIs
+- Progressive disclosure of detail
+- Consistent risk and exception indicators
+- Dedicated space for human commentary
+- Separation of facts, AI-generated observations, and final judgments
+- Visible supporting evidence
+- Simple movement between workflow stages
+- Executive summaries for faster review
+
+A lending platform should make complexity manageable without oversimplifying the decision.
+
+---
+
+## 🌱 Key Learnings
+
+This project reinforced several important lessons.
+
+### The workflow matters more than the dashboard
+
+A polished dashboard is not enough if it does not support the way people actually evaluate and approve loans.
+
+### AI is most useful when it reduces friction
+
+The strongest use cases are often not fully automated decisions. They are the repetitive activities that consume time before professional judgment begins.
+
+### Context matters
+
+A ratio, score, or risk flag is not meaningful without borrower context, historical trends, supporting documents, and professional interpretation.
+
+### Trust must be designed into the experience
+
+Users are more likely to rely on AI-assisted insights when they can inspect the evidence, understand the reasoning, and retain control over the final decision.
+
+### Cloud infrastructure should feel invisible to the user
+
+AWS enables the broader environment, but the user experience should remain focused on clarity, workflow, and the credit decision—not on the underlying technology.
+
+---
+
+## 🛠️ Tools & Areas Explored
+
+| Area | Focus |
+|---|---|
+| Cloud Platform | AWS |
+| Analytics | Financial and credit analysis |
+| Business Intelligence | Reporting and decision support |
+| Artificial Intelligence | Generative AI and document intelligence concepts |
+| Product Thinking | User needs, workflows, and feature design |
+| Dashboard Design | Information hierarchy and visual communication |
+| Workflow Design | Underwriting and approval journeys |
+| Domain | Lending, credit analysis, and underwriting |
+| Governance | Responsible AI and human oversight |
+| Documentation | Markdown and portfolio storytelling |
 
 ---
 
 ## 📁 Repository Structure
 
 ```text
-ai-lending-platform/
+AI-Lending-Platform/
 │
 ├── README.md
 │
-├── assets/
-│   ├── ai-lending-hero.png
-│   ├── workflow-overview.png
-│   ├── risk-assessment.png
-│   └── credit-memo-concept.png
-│
-├── documentation/
-│   ├── business-problem.md
-│   ├── product-thinking.md
-│   ├── underwriting-workflow.md
-│   └── responsible-ai-considerations.md
-│
-└── LICENSE
+└── assets/
+    └── hero-dashboard.png
 ```
 
----
+Additional recreated visuals may be added later, including:
 
-## 🛠️ Tools & Areas Explored
-
-`AI`  
-`Commercial Lending`  
-`Credit Analysis`  
-`Underwriting`  
-`Business Intelligence`  
-`Product Thinking`  
-`Dashboard Design`  
-`Responsible AI`  
-`Workflow Design`  
-`Decision Support`
-
----
-
-## 📚 Explore Further
-
-- [Business Problem](documentation/business-problem.md)
-- [Product Thinking](documentation/product-thinking.md)
-- [Underwriting Workflow](documentation/underwriting-workflow.md)
-- [Responsible AI Considerations](documentation/responsible-ai-considerations.md)
+```text
+assets/
+├── hero-dashboard.png
+├── borrower-overview.png
+├── financial-analysis.png
+├── risk-assessment.png
+├── ai-insights.png
+├── credit-memo.png
+├── underwriting-workflow.png
+└── system-architecture.png
+```
 
 ---
 
 ## 🌐 Connect
 
-[Portfolio](https://mansirathi.framer.ai/)  
-[LinkedIn](https://www.linkedin.com/in/mansirathi/)
+- 🌐 [Portfolio](https://mansirathi.framer.ai/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/mansirathi/)
+- 📂 [GitHub Profile](https://github.com/heymansirathi)
 
 ---
 
