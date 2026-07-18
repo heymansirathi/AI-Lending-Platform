@@ -2,7 +2,7 @@
 
 An AI-assisted commercial lending experience designed to improve underwriting workflows while keeping human judgment at the center.
 
-![AI Lending Platform](assets/ai-lending-hero.png)
+![AI Lending Platform](assets/hero-dashboard.png)
 
 ---
 
