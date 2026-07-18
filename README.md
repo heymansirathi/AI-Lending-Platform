@@ -207,7 +207,7 @@ The concept may include sections for:
 
 ## ✨ Example User Experience
 
-A user reviewing a commercial loan may be able to:
+A user reviewing an SBA loan may be able to:
 
 1. Open a borrower profile
 2. Review the loan request
